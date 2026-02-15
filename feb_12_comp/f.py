@@ -14,8 +14,6 @@ for _ in range(m):
 
     graph[u].append((v,c,w,id))
 
-# print(graph)
-
 def dijkstra(graph, start):
     dist = {node: float('inf') for node in graph}
     prev = {node: None for node in graph}
@@ -45,7 +43,7 @@ total_cost = 0
 # go backwards to figure out path
 def dfs(node, short, prev, curr_flow, total_cost, deleted, path):
     # print(node, total_cost, deleted)
-    print(node, total_cost, curr_flow, path)
+    # print(node, total_cost, curr_flow, path)
     # path.append(node)
     if node == s:
         for node, idx in deleted:
