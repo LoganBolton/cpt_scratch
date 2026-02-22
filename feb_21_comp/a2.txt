@@ -1,0 +1,13 @@
+def one 1
+def two 2
+def three 3
+def four 4
+calc one + two + three =
+def six 6
+calc one + two + three =
+calc four - two =
+def two 5
+calc four - two =
+calc two - one =
+clear
+calc one + two =
